@@ -9,7 +9,12 @@ html {
 body {
   margin: 0;
 }
-
+h1{
+  color:#ff0062;
+  margin-top:2rem;
+  margin-bottom:0rem;
+  margin-left:32rem;
+}
 label,
 input,
 textarea {
@@ -61,6 +66,7 @@ button:active {
   border: 1px solid #ff0062;
   margin-left:20rem;
 }
+
 
 .projects header {
   background: #ff0062;
@@ -133,9 +139,82 @@ button:active {
 
 #user-input {
   width:50%;
-  margin: 3rem;
+  margin: 2rem;
   padding: 1rem;
   margin-left:20rem;
   border: 1px solid #ff0062;
   background: #f7f7f7;
+}
+@media only screen and (max-width: 900px) {
+  .projects {
+    margin-left:12rem;
+  }
+  .projects header {
+    width:80%;
+    /* margin-left:2.5rem; */
+  }
+  #finished-projects {
+    border-color: #0044ff;
+    width:50%;
+    margin-left:12rem;
+    margin-top:.5rem;
+  }
+  #finished-projects header {
+    background: #0044ff;
+    width:80%;
+    padding: 1rem;
+  }
+  #user-input {
+    width:50%;
+    margin: 3rem;
+    padding: 1rem;
+    margin-left:12rem;
+    border: 1px solid #ff0062;
+    background: #f7f7f7;
+  }
+  h1{
+    color:#ff0062;
+    margin-top:2rem;
+    margin-bottom:0rem;
+    margin-left:14rem;
+  }
+  
+
+}
+@media only screen and (max-width: 600px) {
+  .projects {
+    margin-left:4rem;
+    width:80%;
+    margin-left:3rem;
+  }
+  .projects header {
+    width:80%;
+  }
+  #finished-projects {
+    border-color: #0044ff;
+    width:80%;
+    margin-left:3rem;
+    margin-top:.5rem;
+  }
+  #finished-projects header {
+    background: #0044ff;
+    width:80%;
+    padding: 1rem;
+    margin-left:2.5rem;
+  }
+  #user-input {
+    width:80%;
+    margin: 3rem;
+    padding: 1rem;
+    margin-left:3rem;
+    border: 1px solid #ff0062;
+    background: #f7f7f7;
+  }
+  h1{
+    color:#ff0062;
+    margin-top:2rem;
+    margin-bottom:0rem;
+    margin-left:5rem;
+  }
+  
 }
